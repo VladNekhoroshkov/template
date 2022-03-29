@@ -7,27 +7,27 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet" />
     <title>React App</title>
   </head>
   <body>
     <div class="main-container">
       <header class="header">
-        <nav class="header_navigation">        
-            <button type="button" class="tariff-button">сменить тариф</button>
+        <nav class="header_navigation">  
             <button type="button" class="user-button">
               <img type="img" src="./img/user_img.png" width="32px">
               <span class="user-title">Пользователь</span>
             </button>
         </nav>
       </header>
+
       
       <aside class="sidebar">
         <div class="sidebar_top">
-          <a href="./index.html" class="header_logo" >
-            <img src="./img/Spotify_Logo_CMYK_White.png" alt="logo"  height="40px" />
+          <a href="./index.html" class="header_logo" href="/">
+            <img src="./img/Spotify_Logo_CMYK_White.png" alt="logo"  height="36px" />
+            <!--<h1 class="header_title">Spotify</h1>-->
           </a>
           <ul class="sidebar_items">
             <li class="sidebar_item">
@@ -65,22 +65,23 @@
                 Любимые треки
               </a>
             </li>
-          </ul>          
+          </ul>
+          
         </div>
-        <hr class="hr-line"> 
-
+        <hr class="hr-line">
       </aside>
+
       <main class="main-content">
 
         <div class="partition">
-          <h2 class="title-partition">Послушай эти шоу</h2>
+          <h2 class="title-partition">Плейлисты</h2>
           <ul class="content-cards">
             <li>
               <a href="#" class="card">
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -89,7 +90,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -98,7 +99,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -107,7 +108,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -116,7 +117,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -125,7 +126,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -133,14 +134,14 @@
         </div>
 
         <div class="partition">
-          <h2 class="title-partition">Выбор редакции (чарты)</h2>
+          <h2 class="title-partition">Подкасты</h2>
           <ul class="content-cards">
             <li>
               <a href="#" class="card">
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3> 
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -149,7 +150,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -158,7 +159,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -167,7 +168,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -176,7 +177,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>          
+                  <h4 class="card_description">Описание</h4>          
                 </div>                  
               </a> 
             </li>
@@ -185,7 +186,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -193,14 +194,14 @@
         </div>
 
         <div class="partition">
-          <h2 class="title-partition">Что-то новенькое</h2>
+          <h2 class="title-partition">Исполнители</h2>
           <ul class="content-cards">
             <li>
               <a href="#" class="card">
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3> 
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -209,7 +210,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -218,7 +219,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -227,7 +228,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -236,7 +237,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>          
+                  <h4 class="card_description">Описание</h4>          
                 </div>                  
               </a> 
             </li>
@@ -245,7 +246,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Описание</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -253,14 +254,14 @@
         </div>
 
         <div class="partition">
-          <h2 class="title-partition">В тренде</h2>
+          <h2 class="title-partition">Альбомы</h2>
           <ul class="content-cards">
             <li>
               <a href="#" class="card">
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -269,7 +270,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -278,7 +279,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -287,7 +288,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>            
+                  <h4 class="card_description">Описание</h4>            
                 </div>                  
               </a> 
             </li>
@@ -296,7 +297,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -305,7 +306,7 @@
                 <img src="./img/card_cover.jpg" class="card_image" alt="card img" />
                 <div class="card_header">      
                   <h3 class="card_title">Название</h3>
-                  <h4 class="card_autor">Автор</h4>           
+                  <h4 class="card_description">Описание</h4>           
                 </div>                  
               </a> 
             </li>
@@ -380,5 +381,15 @@
         
       
     </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
