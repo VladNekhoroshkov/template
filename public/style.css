@@ -185,7 +185,7 @@
     padding: 0;
     list-style-type: none;
   }
-.content-cards .card {
+.content-cards_card {
     position: relative;
     display: block;
     height: 100%;
@@ -195,7 +195,7 @@
     overflow: hidden;
     text-decoration: none;
 }
-.content-cards .img_card {
+.content-cards_image {
     position: relative;
     display: block;
     border-radius: 10px;
@@ -216,7 +216,7 @@
     margin: 0 0 4px;
     color: white;
 }
-.img_card .card_title{
+.content-cards_image-title{
     font-size: 1.2em;
     letter-spacing: 0.5px;
     max-width: 100%;
@@ -246,7 +246,7 @@
     justify-content: space-between;
 }
 
-.player-controls, .player-bar {
+.player-controls {
     display: flex;
     flex-direction: row;
     justify-content: center;
